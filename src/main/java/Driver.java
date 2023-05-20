@@ -5,7 +5,13 @@ public class Driver {
 	public static void main(String[] args) {
 
 		Counter counter = new Counter();
+		Counter counter = new Counter();
+		Counter counter = new Counter();
+		Counter counter = new Counter();
 
+		System.out.println("Perhitungan:" + counter.getCount());
+		System.out.println("Perhitungan:" + counter.getCount());
+		System.out.println("Perhitungan:" + counter.getCount());
 		System.out.println("Perhitungan:" + counter.getCount());
 
 		counter.increment();
